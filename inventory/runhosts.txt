@@ -1,0 +1,10 @@
+export PYTHONHTTPSVERIFY=0
+
+[win]
+35.184.228.190
+
+[win:vars]
+ansible_user=zonedeveloper
+ansible_password=uD@=6P\\T{(rp%R
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
