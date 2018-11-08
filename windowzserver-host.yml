@@ -3,5 +3,5 @@
   hosts: "all"
   roles:
    #- { role: "golang", tags: "golang" }
-   #- { role: "netframework", tags: "framework" }
+   - { role: "netframework", tags: "framework" }
    - { role: "win_iis", tags: "iis" }
