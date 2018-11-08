@@ -2,4 +2,4 @@
 # What git to install ans where to put the download file
 net_framework: NDP46-KB3045560-Web.exe
 net_framework_url: https://www.microsoft.com/en-us/download/confirmation.aspx?id=48130
-net_framework_location: C:\Users\zonedeveloper\ansible\{{ net_framakework }}
+net_framework_location: C:\Users\zonedeveloper\ansible\{{ net_framework }}
