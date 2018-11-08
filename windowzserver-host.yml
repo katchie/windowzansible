@@ -2,6 +2,10 @@
 - name: "Configure Windows Servers"
   hosts: "all"
   become: True
+  tasks:
+  - name: "sudo to root"
+    command: /usr/bin/whoami
+   
   roles:
    #- { role: "golang", tags: "golang" }
    #- { role: "netframework", tags: "framework" }
