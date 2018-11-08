@@ -1,5 +1,10 @@
 --- # tasks file for net_framework
 
+-   name: Create directory for net_framework
+    win_file:
+        path: C:\Users\zonedeveloper\ansible
+        state: directory
+    
 -   name: Check if net_framework is already downloaded
     win_shell: dir {{ net_framework_location }}
     register: net_framework_found
