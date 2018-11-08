@@ -1,0 +1,6 @@
+#test file for net_framework
+---
+- hosts: "all"
+  remote_user: zonedeveloper
+  roles:
+    - netframework

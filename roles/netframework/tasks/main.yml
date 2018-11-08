@@ -1,0 +1,7 @@
+--- # tasks file for net_framework
+
+name: Download net_framework
+    win_get_url:
+        url: "{{ net_framework_url }}"
+        dest: "{{ net_framework_location }}"
+    when: net_framework_found.rc >= 1

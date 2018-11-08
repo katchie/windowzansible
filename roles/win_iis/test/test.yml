@@ -1,0 +1,5 @@
+---
+- hosts: "all"
+  remote_user: zonedeveloper
+  roles:
+    - win_iis
