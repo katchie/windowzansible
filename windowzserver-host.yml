@@ -1,8 +1,7 @@
 ---
 - name: "Configure Windows Servers"
   hosts: "all"
-  become: True
-   roles:
+  roles:
    #- { role: "golang", tags: "golang" }
    #- { role: "netframework", tags: "framework" }
    - { role: "win_iis", tags: "iis" }
