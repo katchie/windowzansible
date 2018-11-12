@@ -16,3 +16,10 @@
         url: "{{ net_framework_url }}"
         dest: "{{ net_framework_location }}"
     when: net_framework_found.rc >= 1
+
+-   name: Install net_framework
+    win_package:
+        path: "{{ net_framework_location }}"
+        arguments: /SILENT /NOCANCEL        
+        state: present
+        restart: yes
